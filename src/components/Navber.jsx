@@ -8,7 +8,7 @@ const Navber = () => {
     return (
         <div className="navbar bg-base-100">
 
-            <div className="flex-1 gap-10">
+            <div className=" flex-1 gap-10">
                 <a className=" text-xl font-inter font-bold ">tripsfood</a>
                 <button className="btn btn-square btn-ghost">
                     <svg
@@ -26,7 +26,7 @@ const Navber = () => {
                 <IoSearchSharp />
             </div>
 
-            <div className="flex-none gap-x-5">
+            <div className="lg:flex-none gap-x-5">
                 <div>
                     <MdLockPerson/>
                 </div>
