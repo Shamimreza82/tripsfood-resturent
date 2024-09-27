@@ -6,8 +6,7 @@ import { MdLockPerson } from "react-icons/md";
 
 const Navber = () => {
     return (
-        <div className="navbar bg-base-100">
-
+        <div className="navbar  px-20 z-50 backdrop-blur-sm bg-slate-800 fixed text-white  bg-slate-800/30 shadow-lg">
             <div className=" flex-1 gap-10">
                 <a className=" text-xl font-inter font-bold ">tripsfood</a>
                 <button className="btn btn-square btn-ghost">
@@ -28,15 +27,15 @@ const Navber = () => {
 
             <div className="lg:flex-none gap-x-5">
                 <div>
-                    <MdLockPerson/>
+                    <MdLockPerson />
                 </div>
                 <div className="flex items-center gap-7">
                     Accounts
-                    <IoIosArrowDown/>
+                    <IoIosArrowDown />
                 </div>
-                <button className=" bg-[#FFBE00] py-2 px-4 rounded-3xl font-bold text-sm flex items-center gap-2 hover:bg-slate-400 duration-200 hover:text-white">
-                        MAKE A BOOKING
-                    <BiSolidRightArrow/>
+                <button className=" hover:scale-95 bg-[#FFBE00] py-2 px-4 rounded-3xl text-black font-bold text-sm flex items-center gap-2 hover:bg-slate-400 duration-200 hover:text-white">
+                    MAKE A BOOKING
+                    <BiSolidRightArrow />
                 </button>
             </div>
         </div>

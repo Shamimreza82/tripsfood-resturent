@@ -3,7 +3,7 @@ import { BiSolidRightArrow } from "react-icons/bi";
 const StorySection = () => {
     return (
         <div>
-            <div className='lg:flex p-11 gap-36 h-screen items-center overflow-hidden '>
+            <div className='lg:flex p-11 gap-36 items-center overflow-hidden my-20'>
                 <div className='h-[500px]  flex-1 rounded-3xl' style={{
                     backgroundImage: "url('https://images.pexels.com/photos/7312995/pexels-photo-7312995.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')",
                     backgroundSize: "cover",

@@ -4,8 +4,8 @@ import iceCream from '../assets/01.jpg'
 
 const HotDesserts = () => {
     return (
-        <div>
-            <h2>HOT DESSERTS</h2>
+        <div className='mt-5 lg:px-20 py-10'>
+            <h2 className='font-bold text-2xl'>HOT DESSERTS</h2>
             <div className='grid grid-cols-4 p-10 gap-6 '>
                 <div className='flex h-44 rounded-xl p-3 gap-5 shadow-slate-300 shadow-2xl'>
                     <div className='overflow-hidden h-36px flex-1'>

@@ -4,16 +4,16 @@ import { BiSolidRightArrow } from 'react-icons/bi';
 const OurMostPopularRecipies = () => {
     return (
         <div className='h-screen'>
-            <div className='absolute w-[85%] h-[60%] lg:ml-36 bg-gradient-to-b from-red-50 rounded-tl-[300px]'> </div>
+            <div className='absolute w-full h-[60%]  bg-gradient-to-b from-red-50 rounded-tl-[300px]'> </div>
             <div>
                 <div className='z-20 relative '>
-                    <h3 className='text-2xl text-center underline font-bold pt-12'>Our Most Popular Recipies</h3>
+                    <h3 className='text-3xl text-center underline font-bold pt-12'>Our Most Popular Recipies</h3>
                     <p className='font-bold text-center mt-3 text-gray-500'>fresh & local</p>
                 </div>
                 <div className='mt-10 flex justify-center gap-10'>
                     <div className="card bg-base-100 w-80 shadow-xl">
                         <figure>
-                            <img
+                            <img className='hover:scale-125 duration-300'
                                 src="https://images.pexels.com/photos/12481168/pexels-photo-12481168.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                                 alt="Shoes" />
                         </figure>
@@ -28,7 +28,7 @@ const OurMostPopularRecipies = () => {
                     </div>
                     <div className="card bg-base-100 w-80 shadow-xl">
                         <figure>
-                            <img
+                            <img className='hover:scale-125 duration-300'
                                 src="https://images.pexels.com/photos/37352/food-japanese-asian.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                                 alt="Shoes" />
                         </figure>
@@ -43,7 +43,7 @@ const OurMostPopularRecipies = () => {
                     </div>
                     <div className="card bg-base-100 w-80 shadow-xl">
                         <figure className='w-full h-[214px] overflow-hidden '>
-                            <img className='h-72'
+                            <img className='h-72 hover:scale-125 duration-300'
                                 src="https://images.pexels.com/photos/3026808/pexels-photo-3026808.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                                 alt="Shoes" />
                         </figure>

@@ -9,13 +9,13 @@ function App() {
 
   return (
     <>
-      <div >
+      <div>
         <Navber />
-        {/* <Banner/>
-        <HotDesserts /> */}
-        {/* <StorySection/> */}
-        {/* <ExploreOurMenu/> */}
-        <OurMostPopularRecipies/>
+        <Banner />
+        <HotDesserts />
+        <StorySection />
+        <ExploreOurMenu />
+        <OurMostPopularRecipies />
       </div>
     </>
   )

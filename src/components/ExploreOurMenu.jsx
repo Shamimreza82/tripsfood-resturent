@@ -4,10 +4,10 @@ import dish from '../assets/02.png'
 
 const ExploreOurMenu = () => {
     return (
-        <div className='lg:h-[80vh]  '>
-            <div className='absolute w-[70%] h-[60%] bg-gradient-to-b from-red-50 rounded-br-[300px]'> </div>
+        <div className='mb-40'>
+            <div className='absolute w-[80%] h-[60%] bg-gradient-to-b from-red-50 rounded-br-[300px]'> </div>
             <div className='z-20 relative '>
-                <h3 className='text-2xl text-center underline font-bold pt-12'>Explore Our Menu</h3>
+                <h3 className='text-3xl text-center underline font-bold pt-12'>Explore Our Menu</h3>
                 <p className='font-bold text-center mt-3 text-gray-500'>fresh & local</p>
             </div>
             <div className='flex justify-center mt-8 gap-14'>
