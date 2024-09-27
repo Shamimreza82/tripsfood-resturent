@@ -7,7 +7,7 @@ import './index.css'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <div className='container mx-auto '>
+    <div className='container mx-auto bg-white'>
       <App />
     </div>
   </StrictMode>,
