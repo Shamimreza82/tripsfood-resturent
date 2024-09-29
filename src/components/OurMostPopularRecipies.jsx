@@ -3,7 +3,7 @@ import { BiSolidRightArrow } from 'react-icons/bi';
 
 const OurMostPopularRecipies = () => {
     return (
-        <div className='h-screen'>
+        <div >
             <div className='absolute w-full h-[60%]  bg-gradient-to-b from-red-50 rounded-tl-[300px]'> </div>
             <div>
                 <div className='z-20 relative '>

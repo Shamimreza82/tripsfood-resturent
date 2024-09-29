@@ -4,6 +4,8 @@ import Navber from "./components/Navber"
 import StorySection from "./components/StorySection"
 import ExploreOurMenu from "./components/ExploreOurMenu"
 import OurMostPopularRecipies from "./components/OurMostPopularRecipies"
+import Testmonials from './components/Testmonials'
+import Footer from "./components/Footer"
 
 function App() {
 
@@ -16,6 +18,8 @@ function App() {
         <StorySection />
         <ExploreOurMenu />
         <OurMostPopularRecipies />
+        <Testmonials/>
+        <Footer/>
       </div>
     </>
   )
